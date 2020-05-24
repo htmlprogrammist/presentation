@@ -1,0 +1,23 @@
+.react-logo__text {
+  color: #61dafb;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.header {
+  font-weight: bold;
+  color: #FFF;
+  align-items:center;
+}
+
+#what-why-how {
+  color: #FFF;
+  margin: 40px;
+  font-weight: thin;
+}
+
+#termin {
+  color: #61dafb;
+  margin: 40px;
+  font-weight: 100;
+}

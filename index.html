@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+      <title>reveal.js</title>
+      <link rel="stylesheet" href="dist/reset.css">
+      <link rel="stylesheet" href="dist/reveal.css">
+      <link rel="stylesheet" href="dist/theme/moon.css" id="theme">
+      <link rel="stylesheet" href="css/styles.css">
+      <!-- Theme used for syntax highlighted code -->
+      <link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+  </head>
+  <body>
+      <div class="reveal">
+          <div class="slides">
+            <!-- Slide 1 -->
+              <section data-markdown>
+                <textarea data-template>
+                  <img data-src="css/img/ReactJsLogo512.png">
+                  <div class="react-logo__text">React</div>
+                </textarea>
+              </section>
+            <!-- Slide 2 -->
+              <section>
+                <section data-markdown>
+                  <textarea data-template>
+                  <div class="header">Getting Started</div>
+                  <div id="what-why-how">What? Why? How?</div>
+                  </textarea>
+                </section>
+                <section data-markdown>
+                  <textarea data-template>
+                    <div class="header">What is React?</div>
+                    <div id="termin">"A JavaScript library for building user interfaces"</div>
+                  </textarea>
+                </section>
+              </section>
+            <!-- Slide 3 -->
+            <section>
+              <section data-markdown>
+                <textarea data-template>
+                <div class="header">Components?</div>
+                <img data-src="css/img/exampleSiteWithOutText.png">
+                </textarea>
+              </section>
+              <section data-markdown>
+                <textarea data-template>
+                <div class="header">Components?</div>
+                <img data-src="css/img/exampleSiteWithText.png">
+                </textarea>
+              </section>
+            </section>
+            <!-- Slide 4 -->
+            <section>
+              <section data-markdown>
+                <textarea data-template>
+                  <img data-src="css/img/react-js-site-1.png">
+                </textarea>
+              </section>
+              <section data-markdown>
+                <textarea data-template>
+                  <img data-src="css/img/react-js-site-2.png">
+                </textarea>
+              </section>
+            </section>
+            <!-- Slide 5 -->
+            <section data-markdown>
+              <textarea data-template>
+                <div class="react-logo__text">Thank you for attention!</div>
+                <img data-src="css/img/ReactJsLogo512.png">
+              </textarea>
+            </section>
+          </div>
+      </div>
+
+      <script src="dist/reveal.js"></script>
+      <script src="plugin/notes/notes.js"></script>
+      <script src="plugin/markdown/markdown.js"></script>
+      <script src="plugin/highlight/highlight.js"></script>
+      <script>
+          // More info about initialization & config:
+          // - https://revealjs.com/initialization/
+          // - https://revealjs.com/config/
+          Reveal.initialize({
+              hash: true,
+
+              // Learn about plugins: https://revealjs.com/plugins/
+              plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+          });
+      </script>
+  </body>
+</html>
